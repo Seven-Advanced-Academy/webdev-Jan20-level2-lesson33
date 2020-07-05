@@ -1,0 +1,13 @@
+.box-set {
+    background: #eaeaed;
+    overflow: auto;
+  }
+  .box {
+    background: #2db34a;
+    float: left;
+    padding: 20px;
+    border-radius: 6px;
+    text-align: center;
+    margin: 1px;
+    
+  }
