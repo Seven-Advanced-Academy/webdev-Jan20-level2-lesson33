@@ -1,0 +1,37 @@
+body {
+    color: #666;
+    font: 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+  }
+  .alpha:first-letter,
+  .bravo:first-line {
+    color: #ff7b29;
+    font-size: 18px;
+  }
+  p {
+    margin-bottom: 24px;
+  }
+  p:last-of-type {
+    margin-bottom: 0;
+  }
+
+  ::-moz-selection {
+    background: #ff7b29 
+} 
+  ::selection {
+    background: #ff7b29;
+  }
+  
+
+  a {
+    color: #0087cc;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #ff7b29;
+  }
+  a:after {
+    color: #9799a7;
+    content: " (" attr(href) ")";
+    font-size: 11px;
+  }
+

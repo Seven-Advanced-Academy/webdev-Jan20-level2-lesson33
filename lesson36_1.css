@@ -1,0 +1,25 @@
+body{
+    width: 50%;
+   align-items: center;
+}
+h1 {
+    padding: 5px;
+    background: none
+}
+.tagline{
+    padding: 5px;
+    background: none
+}
+#intro{
+    padding: 5px;
+    background: none;
+}
+article {
+    background-color: chartreuse;
+}
+article > p{
+    background-color:crimson;
+}
+h2 ~p{
+    background-color: cyan;
+}
